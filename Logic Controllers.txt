@@ -1,0 +1,32 @@
+Logic Controllers
+
+Module controllers
+   => give you the complete list of other logic controller where you can control its execution
+
+
+Simple Controller
+   => is like a folder that can contain your Samplers
+
+Loop controller
+   => control how many times the Samplers will be executed
+
+Random controller
+   => execute only one of its children samples picking it randomly
+
+Random order controller
+   => execute all Samplers that are its children but in a random order
+
+Interleave controller
+   => executes all Samplers in sequential order
+
+Once only controller
+   => execute all samplers that are its children only once
+
+If controller
+   => execute all samplers if the condition is true
+
+
+
+
+
+
