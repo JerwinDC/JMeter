@@ -1,0 +1,52 @@
+Common terminologies used in Performance Testing:
+
+Performance testing - is a practice conducted to determine how a system performs in terms off responsiveness and stability under a particular workload.
+
+
+
+Connection time - time it takes a request reach the server from the client
+
+Response time - time it takes the response reach the client from the server
+
+Throughput - indicated the number of transaction per second an application can handle, the amount of transactions produced over time during a test.
+
+scenarios - sequence of steps in your application.
+
+bottleneck - single part of a system that prevents further processing.
+
+capacity - degree to which a system can perform data processing until performance degrades.
+
+concurrency - number of simultaneous virtual users driving transactions across the user journeys in a given performance test scenario, but can also means the number of transactions synchronized to happen at exactly the same point.
+
+Key performance indicators (KPI) - set of targets which set the expected performance targets within the production system.
+
+Load testing - used to evaluate the behavior of the system or component when the load on the system progressively increases up to and including peak levels
+
+non-functional requirements (NFRs) - requirements the do not relate to the functioning of the system, but to other aspect of system such as reliability, usability and performance.
+
+performance engineering - activities designed to ensure a system will be designed and implemented to meet specific non functional requirements.
+
+performance test plan - written document that detail the objectives, scope, approach, deliverables, schedule, risks, data and test environment needs for testing on a specific project.
+
+performance testing - testing designed to determine the performance level of a system. 
+
+reliability - degree to which a system provides the same result for the same action over time under load.
+
+scalability - degree to which a systems performance and capacity can be increased typically by increasing available hardware resources within a set of servers.
+
+soak testing - type of performance testing use to evaluate the behavior of a system or component when the system is subjected to expected load over a sustained period of time.
+
+spike testing - type of performance testing use to evaluate the behavior of a system or component when the system is subjected to a large short-term changes in demand.
+
+stability - a degree to which a system exhibits failures and errors when under normal usage.
+
+stress testing - type of performance testing used to evaluate the behavior of a system or component when subjected to load beyond the anticipated workload or by reducing resources the system can use such as CPU or memory.
+
+Transaction volume model (TVM) - a document detailing the user journeys to be simulated, the click-path steps that make up the ser journeys and associated load volume models to be tested.
+
+User journey - the path through the system under test that a group of virtual users will use to simulate real users. 
+
+virtual user - a simulated user that performs actions as a real user would during the execution of a test.
+
+ 
+
