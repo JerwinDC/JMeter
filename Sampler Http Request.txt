@@ -1,0 +1,31 @@
+Sampler Http Request
+
+CRUD operations
+
+To make an http get Request
+1. Add thread group
+2. Add http request  sampler
+3. add the IP/server name and path.
+4. Set the request method to GET
+5. Add view results tree listener to check the response data.
+
+
+https port number: 443
+http port number: 80
+
+Post Request / PUT Request
+1. Add thread group
+2. Add http request  sampler
+3. add the IP/server name and path.
+4. Set the request method to POST/PUT
+5. Add the payload inside Body Data
+6. configure header using http header manager - set the content type to application/json
+7. Add view results tree listener to check the response data.
+
+To make an http delete Request
+1. Add thread group
+2. Add http request  sampler
+3. add the IP/server name and path.
+4. Set the request method to Delete
+5. Add view results tree listener to check the response data.
+
