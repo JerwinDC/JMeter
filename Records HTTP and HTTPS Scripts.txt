@@ -1,0 +1,33 @@
+Proxy -  instead of sending request and getting response through a network, transactions can be done via proxy (JMeter proxy).
+
+Jmeter by default running on Port 8888
+
+Two types of request
+Http - without any certificate
+Https - secured connection / with certificate (SSL/TLS) that encrypts the data
+
+(Global proxy settings)
+to configure proxy server:
+1. go to internet options
+2. connection settings
+3. tick the "use proxy server"
+4. add "localhost" as the address and "8888" for the port.
+
+Instead of global settings use firefox and manually configure proxy settings.
+
+
+to start https recorder
+1.Right click on test plan
+2.Add non-test elements
+3.Https Test Script recorder
+4. Click start then browse to the target web page
+
+To filter the request:
+1. go to request filtering tab
+2. Click add suggested excludes
+
+To access https site
+1. Go to settings
+2. Add Root CA certificates
+
+Add prefix name to add prefix on the name of the requested data.
