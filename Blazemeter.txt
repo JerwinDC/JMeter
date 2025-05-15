@@ -1,0 +1,11 @@
+Blazemeter chrome extension
+
+To start recording
+1. Click on the extension 
+2. Type the test name
+3. Click start recording
+4. You can add test case and click on add step to perform other actions on the website you are testing
+5. Once completed save the test via JMX file.
+6. The file can be drag/import in JMeter tool
+7. you can Add listeners like results tree and aggregate report to check the result of test scripts once executed.
+8. You can add threads(users) to simulate the number of users that will virtually perform the actions(scripts) generated from blazemeter.
