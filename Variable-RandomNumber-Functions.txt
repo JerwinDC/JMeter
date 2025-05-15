@@ -1,0 +1,15 @@
+JMeter Variable - Random number - Functions
+
+User Defined Variables (Config Element)
+To define variable and use it somewhere with the following format
+${varName}
+
+JMeter Function
+
+To generate a function
+1. Go to tools
+2. Function dialog helper
+3. Select the function you wantto generate (sample: Random)
+4. Set the values required for that function
+5. Click Generate & Copy to clipboard
+6. Copy the Function syntax and used it on your test scripts. (Sample: use it as payload)
