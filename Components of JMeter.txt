@@ -1,0 +1,35 @@
+Different components of JMeter
+
+Thread group 
+
+   - Number of threads => set the number of virtual users
+
+   - Ramp-up period => how much time a thread will be taking some time
+     sample(20 period / 10 threads ) => 2 secs for each thread
+
+   - Loop Count - number of times the test will execute the scenarios
+
+   * Sampler
+
+     -Http Request
+    Protocol : https
+    IP: www.google.com
+    Port number : 443 (default port for https )
+
+
+View Result Tree
+    -Display the result (request/response)
+  
+
+Logic Controller - controls how and when the test will be executed
+   
+   -Loop controller => control the number of time the test scenarios are executed
+
+
+Pre Processors - for sending the request
+Post Processes - for handling the response
+Assertions - performing assertions
+Timer - setting timers during test execution
+Config element - configuring request
+Listener - generally for reporting 
+ 
