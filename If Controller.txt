@@ -1,0 +1,13 @@
+If Controller
+
+Expression
+  => can be written in JavaScript to create an expression
+  
+  => 1 == 1 (Value comparison)
+  => "${RESULT}" == "COMPLETED"
+     (RESULT variable is defined in user defined variables)
+  => ${flag} == true || ${flag}
+     (flag variable is defined in user defined variables)
+
+groovy script  
+=>${__groovy{"${RESULT}"=="COMPLETED"}}
