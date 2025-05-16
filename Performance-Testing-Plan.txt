@@ -1,0 +1,97 @@
+Performance Testing plan
+
+
+1. Objectives
+   => Depending on the system under test
+   => Sample testing a web application 
+   I. Verify application can handle user load.
+   II. Response time within limits.
+   III. Identify performance issues.
+
+2. Scope
+   => Scope testing should be clearly defined in the performance testing plan.
+   I. Component System
+   II. Type of performance test
+   III. Metrics to measure
+
+3. Methodology
+   => depends on the objective of testing and system under test
+   -Load Testing
+   -Stress Testing
+   -Endurance testing
+
+4. Test Scenarios
+   => define to simulate realistic user behavior during testing.
+   => Sample for an e-commerce website scenarios include
+   I. browsing products
+   II. adding items to cart
+   III. checking out
+   => expected load, duration
+
+5. Test environment
+   => The  test environment should be setup to simulate the production environment as closely as possible
+   
+6. Tools
+   => Identify and technologies should be identified and includes in the test plan
+    
+7. Timeline
+   => Timeline for performance testing project should be clearly defined
+    Start date, End date before the production release date
+
+
+
+Test Strategy Document
+
+1. Test Types
+  => Types of performance tests to be conducted should be defined
+
+Load testing - to test the systems ability user load
+Stress testing - handle peak loads
+Volume testing - test the system with large data
+
+2. Test approach
+   => approach for each type of test should be defined in test strategy document
+ 
+Load test - ramp up, steady state, rampdown
+Stress test - Peak load level/ duration of test
+
+3. Performance Metrics
+   => performance metrics should be defined in test strategy document
+
+   -response time, throughput, error state, resource utilization.
+
+4. Test Data
+  => define the test data such as user data, input data, test config.
+
+5. Environment and infrastructure
+  => hardware, software and network setup
+
+
+Questions before creating test plan
+
+Q1. How do we determine the objectives of Performance testing?
+   => goals and needs of the system
+   => identify key objective by working closely with stakeholders
+
+
+Q2.What types of performance tests to be included?
+
+Load testing - to test the systems ability to handle certain number of concurrent users
+
+Stress test - to test the systems ability to handle peak loads.
+
+Endurance test - to test the systems performance over extended period of time
+
+Volume testing - to test the systems performance with large amount of data
+
+Q3. What should be included in the test scenarios for performance testing
+=> test scenarios for performance testing should simulate realistic behavior on the system under test.
+
+Q4. How should the performance testing environment be set up?
+=> it should be set up to simulate the production environment as closely as possible.
+
+Q5. What tools and technologies should be used?
+=> Depends on the system under test and objectives of the testing.
+  Jmeter, LoadRunner
+
+   
